@@ -43,6 +43,12 @@ import NanoPayment from 'react-native-brainblocks';
 
 **Note: 1 Rai = 0.000001 XRB**
 
+## Example
+
+<p align="center">
+	<img src="./ScreenRec.gif"/>
+</p>
+
 ## Sample
 https://www.youtube.com/watch?v=Q3X7d6gAQzM
 
@@ -57,8 +63,6 @@ Prop | Description | Type | Required | Default
 **`onSuccess`** | Callback for when the payment succeeds. Contains an object with the token you should use to verify on the serverside. | Function | **Required** |
 **`autostart`** | Should we automatically start a transaction or wait for user to tap first | bool | Optional | false
 
-## Example
-![Example](https://github.com/brianfoody/react-native-brainblocks/blob/master/sample.gif?raw=true)
 
 ## Support 💙
 React Native Lib Donation Address: xrb_36ooqx5oz3fppjijaabg1jxojn57cuacee31twsk5owewzqgp5bz7ck6rawn
